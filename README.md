@@ -47,7 +47,8 @@ In a `cloud landing zone`, the `networking topology` plays a crucial role in ens
 
 
 Below is a simple art diagram illustrating the `hub-and-spoke topology`: <br/><br/>
-<img width="1322" height="727" alt="image" src="https://github.com/user-attachments/assets/c9fd5b46-16a8-4cdd-b947-29c6463f5ba2" />
+<img width="1522" height="857" alt="image" src="https://github.com/user-attachments/assets/146555ae-37b1-446e-b283-c4c2b3a57e5f" /> <br/>
+
 
 
 # Cross-Cloud Service Mapping (AWS vs Azure vs GCP)
