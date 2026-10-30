@@ -146,7 +146,8 @@ A landing zone isn’t a one-time setup - it evolves through four phases. This i
    3) `Operations & Optimization (Day 2)` - `Run stage`. Focus is on routine tasks like monitoring, managing security posture, cost management, and ensuring the environment runs smoothly and efficiently.
    4) `Continuous Evolution: Evolve and Expand` : `Improvement stage`. Iteratively improve the landing zone by adopting new features, expanding to multi-cloud environments, and adapting to new compliance requirements. The decision node here (Check for Updates) is the feedback loop that sends requirements back to the Plan and Design phase (or back to Evolve) to restart the cycle, ensuring the zone never becomes obsolete. <br/>
 
-   <img width="341" height="652" alt="image" src="https://github.com/user-attachments/assets/4b8e6b35-e0c7-4b78-a301-f1eee575e5c4" />
+<img width="351" height="717" alt="image" src="https://github.com/user-attachments/assets/413e5c7d-97bf-48d9-b02f-68b7fe19a6f7" /> <br/>
+
 
 # Landing Zone Checklist by Day 0 / Day 1 / Day 2
 Leverage this phased checklist to ensure completeness across planning, deployment, and operations — from identity to automation — across AWS, Azure, and GCP. Use the “lowest common denominator” principle (e.g., `lowercase` `snake_case` for tags) to ensure compatibility and reliability in multi-cloud environments. <br/>
