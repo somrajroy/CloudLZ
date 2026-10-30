@@ -18,7 +18,8 @@ These foundational elements apply across all major cloud providers — AWS, Azur
 | **Cost Management**       | Implement **budgets, billing alerts**, **cost dashboards**, and **chargeback models** to control spend        |
 
 <br/>Fundamental components forming a secure, scalable, and governed Cloud Landing Zone applicable across AWS, Azure, and GCP for Governance and Scale.<br/><br/>
-<img width="967" height="523" alt="image" src="https://github.com/user-attachments/assets/80af6b1e-2134-4040-bdc7-34ed35945608" />
+<img width="1132" height="627" alt="image" src="https://github.com/user-attachments/assets/2d176629-374e-4a24-b0cf-471181128da6" />
+
  <br/>
 # Recommended Networking Topology: Hub-and-Spoke Model
 In a `cloud landing zone`, the `networking topology` plays a crucial role in ensuring secure, scalable connectivity while minimizing complexity. The `hub-and-spoke model` is the `de-facto standard` for enterprise deployments across AWS, Azure, and GCP, adopted in most implementations (~75%) according to industry patterns and best practices from cloud providers `Well-Architected frameworks`. The `Hub-spoke` topology centralizes shared services (firewalls, gateways) in a `hub` while isolating workloads in `spokes` for security/scalability. It is recommended for enterprise landing zones across Azure (default and/or Virtual WAN), AWS (Transit Gateway), and GCP (Shared VPC). <br/><br/>
