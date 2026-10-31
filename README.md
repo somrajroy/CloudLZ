@@ -251,10 +251,10 @@ Create a separate diagram only when environments have material architectural dif
 - This application of the `one diagram per pattern` rule eliminates unnecessary duplication for lower environments while ensuring that critical, `Production-specific` design decisions remain explicit and easy for stakeholders to review.
 - `Important nuance` : The decision is based on `architectural differences, not simply on the environment name`. If QA and Staging also differ materially from DEV, they may need separate views too.
 ### Practical tips
-- Show full values in the matrix (avoid truncated values)
-- Mark unconfirmed values as “Proposed” or “TBD”
-- Add version, date, and status (Draft / Approved) on the diagram
-- Keep the editable source file (e.g. draw.io) alongside the implementation document <br/> 
+- Show full values in the matrix (avoid truncated values).
+- Mark unconfirmed values clearly as “Proposed” or “TBD” in the matrix.
+- Add version, date, and status (Draft / Approved) on the diagram canvas.
+- Store source files properly: Keep the editable source file (e.g., draw.i) in the project repository so it can be maintained alongside the code.
 
 `Takeaway`: A good Cloud Architecture Diagram tells a clear business story and keeps environment details in a matrix. The first helps stakeholders understand it, and the second helps teams maintain it. This practice reduces duplication, prevents drift, and makes architecture reviews significantly faster and clearer.
 # Azure Landing Zone accelerators
