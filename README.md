@@ -248,7 +248,8 @@ Create a separate diagram only when environments have material architectural dif
 - Different identity models or operational ownership
 - PROD uses zone redundancy while DEV does not or PROD has different ingress or egress network paths or PROD incorporates Disaster Recovery (DR) or regional failover or PROD and DEV use fundamentally different identity models or PROD has a different firewall or private endpoint topology or Specific services exist in one environment but not the other or Operational ownership heavily differs between the environments.
 - Where DEV, QA, and Staging share the same architecture pattern, use a single `Non-Production` diagram with an Environment Configuration Matrix to capture their differences. Create a separate `Production diagram` only when it introduces material architectural differences in PROD. This keeps documentation efficient while ensuring Production-specific design decisions remain clear and easy to review.
-- This application of the `one diagram per pattern` rule eliminates unnecessary duplication for lower environments while ensuring that critical, `Production-specific` design decisions remain explicit and easy for stakeholders to review. `Important nuance` : The decision is based on `architectural differences, not simply on the environment name`. If QA and Staging also differ materially from DEV, they may need separate views too.
+- This application of the `one diagram per pattern` rule eliminates unnecessary duplication for lower environments while ensuring that critical, `Production-specific` design decisions remain explicit and easy for stakeholders to review.
+- `Important nuance` : The decision is based on `architectural differences, not simply on the environment name`. If QA and Staging also differ materially from DEV, they may need separate views too.
 ### Practical tips
 - Show full values in the matrix (avoid truncated values)
 - Mark unconfirmed values as “Proposed” or “TBD”
