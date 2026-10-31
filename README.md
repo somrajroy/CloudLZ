@@ -249,6 +249,13 @@ Create a separate diagram only when environments have material architectural dif
 - PROD uses zone redundancy while DEV does not or PROD has different ingress or egress network paths or PROD incorporates Disaster Recovery (DR) or regional failover or PROD and DEV use fundamentally different identity models or PROD has a different firewall or private endpoint topology or Specific services exist in one environment but not the other or Operational ownership heavily differs between the environments.
 - Where DEV, QA, and Staging share the same architecture pattern, use a single `Non-Production` diagram with an Environment Configuration Matrix to capture their differences. Create a separate `Production diagram` only when it introduces material architectural differences in PROD. This keeps documentation efficient while ensuring Production-specific design decisions remain clear and easy to review.
 - This application of the `one diagram per pattern` rule eliminates unnecessary duplication for lower environments while ensuring that critical, `Production-specific` design decisions remain explicit and easy for stakeholders to review.
+### Practical tips
+- Show full values in the matrix (avoid truncated values)
+- Mark unconfirmed values as “Proposed” or “TBD”
+- Add version, date, and status (Draft / Approved) on the diagram
+- Keep the editable source file (e.g. draw.io) alongside the implementation document <br/> 
+
+`Takeaway`: A good Cloud Architecture Diagram tells a clear business story and keeps environment details in a matrix. The first helps stakeholders understand it, and the second helps teams maintain it. This practice reduces duplication, prevents drift, and makes architecture reviews significantly faster and clearer.
 # Azure Landing Zone accelerators
 Below are some official material to jumpstart Azure landing zones. <br/>
    * [ALZ Accelerator](https://azure.github.io/Azure-Landing-Zones/accelerator/) - current "source of truth" for implementation.[This YouTube video is also good](https://www.youtube.com/watch?v=8VftZLHE2Zc).<br/>
